@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T12:31:55.333Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="3t1IbNB3sNQT1wJtWL04" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T12:40:57.551Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-nt3jqoM16Ii8kj8OWfW" version="20.8.22" type="github">
   <diagram name="Página-1" id="qRX4IYPKH2Vp4G-w1d9a">
-    <mxGraphModel dx="2184" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,14 +96,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="165" y="790" />
+              <mxPoint x="310" y="790" />
               <mxPoint x="-20" y="790" />
               <mxPoint x="-20" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-27" value="Salva as credenciais e reseta o ESP32" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="105" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="Pkc0Q9jrOcTM5dbPZ3zt-35">
           <mxGeometry relative="1" as="geometry">
@@ -118,6 +118,12 @@
         <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-35" value="Debug erro" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="630" y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="Pkc0Q9jrOcTM5dbPZ3zt-37" target="Pkc0Q9jrOcTM5dbPZ3zt-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="Pkc0Q9jrOcTM5dbPZ3zt-37" target="Pkc0Q9jrOcTM5dbPZ3zt-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-37" value="O chuveiro está ligado" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="980" y="720" width="170" height="80" as="geometry" />
         </mxCell>
@@ -126,6 +132,45 @@
         </mxCell>
         <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-40" value="Não" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="710" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="Pkc0Q9jrOcTM5dbPZ3zt-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="870" />
+              <mxPoint x="1460" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-42" value="Espera tempo determinado" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="Pkc0Q9jrOcTM5dbPZ3zt-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="970" />
+              <mxPoint x="1410" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-45" value="Espera tempo determinado" style="whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="810" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-48" value="Sim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="750" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-49" value="Sim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-50" value="Sim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-51" value="Não" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="890" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkc0Q9jrOcTM5dbPZ3zt-52" value="&lt;h1&gt;Nuvem - Cloud&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Com relação à nuvem, devido a grande quantidade de dados, foi escolhida a AWS Cloud, da Amazon, que suporta o volume da publicação de dados em pequenos intervalos de tempo durante o tempo necessário e a visualização amigável deles.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="520" width="230" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
